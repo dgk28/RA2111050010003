@@ -62,7 +62,7 @@ const AverageCalculator = () => {
           <input
             type="text"
             value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
+            onChange={(v) => setInputValue(v.target.value)}
           />
         </label>
         <button type="submit" disabled={loading}>
